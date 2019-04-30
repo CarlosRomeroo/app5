@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+ <widget xmlns   = "http://www.w3.org/ns/widgets"  
+     xmlns:gap = "http://phonegap.com/ns/1.0"  
+     id    = "com.phonegap.app5"  
+     version  = "1.0.0">  
+	 
+   <name> app5 Advertencias del dispositivo</name>  
+   
+   <description>  
+     Aplicacion que realiza la vibracion y beep del dispositivo
+   </description>  
+   
+   <author href="https://build.phonegap.com" email="cb16.contreras.flores.gonzalo@gmail.com">  
+       Gonzalo Contreras Flores
+   </author>  
+    
+   <!-- Personaliza la aplicacion y plataforma  -->  
+   <preference name="orientation"        value="portrait" />    
+   <!-- <preference name="orientation"        value="portrait" /> 
+   <preference name="orientation"        value="landscape" /> --> 
+   <preference name="target-device"       value="universal" />   
+   <preference name="fullscreen"         value="true" />      
+   <preference name="android-installLocation"  value="auto" />  
+   <preference name="permissions" value="INTERNET" />
+ 
+ <!--<plugin name="cordova-plugin-geolocation" source="npm"/> -->
+ <!--Third part plugins -->
+ 
+<!-- Colocar icono app -->
+
+<icon src="res/android/phone-call-icon.png" />
+  
+</widget>
