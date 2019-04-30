@@ -3,11 +3,11 @@
 $(document).ready(function (e){
 document.addEventListener ("deviceready",function(){
 		
-$('#BEEP').tap(function(){
+$('#Beep').tap(function(){
 navigator.notification.beep(3);
 });//tap beep
 		
-$('#VIBRAR').tap(function(){
+$('#Vibrar').tap(function(){
 navigator.notification.vibrate(1000);
 });//tap vibrar
 		
