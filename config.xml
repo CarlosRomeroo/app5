@@ -5,13 +5,13 @@
      id    = "com.phonegap.app5"  
      version  = "1.0.0">  
 	 
-   <name> app5 Advertencias del dispositivo</name>  
+   <name> app5- advertencias del dispositivo</name>  
    
    <description>  
-     Aplicacion que realiza la vibracion y beep del dispositivo
+     Aplicacion que vibra y beepea en el telefono
    </description>  
    
-   <author href="https://build.phonegap.com" email="cb16.contreras.flores.gonzalo@gmail.com">  
+   <author href="https://build.phonegap.com" email="cr6491091@gmail.com">  
        Gonzalo Contreras Flores
    </author>  
     
@@ -23,6 +23,12 @@
    <preference name="fullscreen"         value="true" />      
    <preference name="android-installLocation"  value="auto" />  
    <preference name="permissions" value="INTERNET" />
+
+   <!-- Plugins -->   
+<plugin name="cordova-plugin-device" spec="~1.1.4" />
+<plugin name="cordova-plugin-vibration" spec="~2.1.3" />
+<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />   
+
  
  <!--<plugin name="cordova-plugin-geolocation" source="npm"/> -->
  <!--Third part plugins -->
